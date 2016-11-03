@@ -1,0 +1,30 @@
+NAMA : MOHAMMAD IRFAN DWI RAMDHANI
+NIM : 1137050129
+KELAS : IF-B
+
+MOBILE PROGRAMMING
+
+1. <ImageView>
+2. Atribut XML
+3  iLikePracticeSetsTheBest
+4. Layout
+5.	<RelativeLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    	<Button
+        	android:id="@+id/lyla_text_view"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentBottom="true"
+        	android:layout_centerHorizontal="true"
+        	android:textSize="24sp"
+        	android:text="Click Me" />
+	</RelativeLayout>
+
+6. Perbedaan antara kode (1) dan (2) adalah orientasi pada layoutnya
+   dimana pada kode (1) yaitu LayoutLinear dengan orientasi Vertical
+   dan kode (2) LayoutLinear dengan orientasi Horizontal.
+   pada kedua kode tersebut sama-sama dimasukan 3 textView tetapi dengan
+   adanya perbedaaan pada isi. dengan demikian hasilya sudah dapat dipastikan
+   memiliki perbedaaan dari segi orientasi dan isi dari textviewnya.
